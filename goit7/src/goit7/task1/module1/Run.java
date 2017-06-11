@@ -1,4 +1,4 @@
-package goit7.task1_1;
+package goit7.task1.module1;
 
 import goit7.view_console.View;
 
@@ -7,7 +7,7 @@ public class Run {
 	public static void main(String[] args) {
 		
 		View view = new View();
-		Task11Controller controller = new Task11Controller(view);
+		Module1Controller controller = new Module1Controller(view);
 		controller.start();
 
 	}
