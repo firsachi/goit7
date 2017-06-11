@@ -1,15 +1,15 @@
-package goit7.task1_1;
+package goit7.task1.module1;
 
 import java.util.Scanner;
 
 import goit7.view_console.Messages;
 import goit7.view_console.View;
 
-public class Task11Controller {
+public class Module1Controller {
 	
 	private View view;
 
-	public Task11Controller(View view) {
+	public Module1Controller(View view) {
 		this.view = view;
 	}
 	
